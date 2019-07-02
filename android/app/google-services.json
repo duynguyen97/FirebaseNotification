@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "442428942467",
+    "firebase_url": "https://demonotificationfirebase-621af.firebaseio.com",
+    "project_id": "demonotificationfirebase-621af",
+    "storage_bucket": "demonotificationfirebase-621af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442428942467:android:617b9862c2b6fd03",
+        "android_client_info": {
+          "package_name": "com.demonotificationfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442428942467-dfcejgj4ti1dajotth327kcdihe2kt05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZdshUdwJWdlAxMboMd_LtZAS3dFDbvgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442428942467-dfcejgj4ti1dajotth327kcdihe2kt05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
