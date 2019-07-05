@@ -14,7 +14,7 @@
       android:theme="@style/AppTheme">
       <activity
         android:name=".MainActivity"
-        android:launchMode="singleTop"
+        android:launchMode="singleTask"
         android:label="@string/app_name"
         android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
         android:windowSoftInputMode="adjustResize">
@@ -22,7 +22,26 @@
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>    
-       
+       <intent-filter>
+          <action android:name="android.intent.action.VIEW"/>
+          <category android:name="android.intent.category.DEFAULT"/>
+          <category android:name="android.intent.category.BROWSABLE"/>
+          <!-- <data android:scheme="https"
+                android:host="demonotificationfirebase.page.link"/>
+          <data android:scheme="http"
+                android:host="demonotificationfirebase.page.link"/> -->
+
+                <!-- Accepts URIs that begin with "peopleapp://people/1” -->
+           <!-- <data android:scheme= "https"
+                android:host= "peopleapp212.page.link/55q2"/>     
+            <data android:scheme= "http"
+                android:host= "peopleapp212.page.link/55q2"/>  -->
+            <data android:scheme="http" android:host="friends"/>    
+            <data android:scheme="http" android:host="chat"/>    
+            <data android:scheme="mychat" android:host="friends"/>    
+            <data android:scheme="mychat" android:host="chat"/>    
+
+        </intent-filter>
       </activity>
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
 
